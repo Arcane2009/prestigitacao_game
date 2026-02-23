@@ -9,32 +9,35 @@ for turno in range(1,total + 1):
     entrada = int(input("Digite o número da sua escolha : "))
 
     if(entrada == 1):
+        entrada == 1
         print("\nVocê escolheu pedra")
         mao_bot = mao_bot + 1
     elif entrada == 2:
+        entrada == 2
         print("\nVocê escolheu papel")
         mao_bot = mao_bot + 1
     else:
+        entrada == 3
         print("\nVocê escolheu tesoura")
         mao_bot = mao_bot + 1
 
-    if(mao_bot == 1 and mao == 1):
+    if(mao_bot == 1 and entrada == 1):
         print(f"\nEmpatamos o turno{turno}")
-    elif mao_bot == 2 and mao == 1:
+    elif mao_bot == 2 and entrada == 1:
         print(f"\nGanhei o turno{turno}")
-    elif mao_bot == 3 and mao == 1:
+    elif mao_bot == 3 and entrada == 1:
         print(f"\nPerdi o turno{turno}")
-    elif mao_bot == 1 and mao == 2:
+    elif mao_bot == 1 and entrada == 2:
         print(f"\Perdi o turno{turno}")
-    elif mao_bot == 2 and mao == 2:
+    elif mao_bot == 2 and entrada == 2:
         print(f"\Empatamos o turno{turno}")
-    elif mao_bot == 3 and mao == 2:
+    elif mao_bot == 3 and entrada == 2:
         print(f"\nGanhei o turno{turno}")
-    elif mao_bot == 1 and mao == 3:
+    elif mao_bot == 1 and entrada == 3:
         print(f"\Ganhei o turno{turno}")
-    elif mao_bot == 2 and mao == 3:
+    elif mao_bot == 2 and entrada == 3:
         print(f"\nPerdi o turno{turno}")
-    elif mao_bot == 3 and mao == 3:
+    elif mao_bot == 3 and entrada == 3:
         print(f"\Empatamos o turno{turno}")
 
 print("\nFim de jogo")
