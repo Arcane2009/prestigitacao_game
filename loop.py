@@ -1,5 +1,5 @@
 #Definição das variáveis#
-total = 5
+total = 3
 turno = 1
 mao_bot = 0
 
